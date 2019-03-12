@@ -396,29 +396,29 @@ button:hover {
 
 .theme-image-layer-top {
   background-position: top center;
-  background-image: url(/assets/images/top.jpg);
+  background-image: url(./assets/images/top.jpg);
 }
 
 .theme-image {
   background-repeat: repeat-x;
-  background-image: url(/assets/images/extra.jpg)
+  background-image: url(./assets/images/extra.jpg)
 }
 
 .theme-image-bottom {
   background-position: bottom center;
-  background-image: url(/assets/images/bottom.jpg)
+  background-image: url(./assets/images/bottom.jpg)
 }
 
 .theme-image-left {
   background-position: left top;
   background-size: 100% auto;
-  background-image: url(/assets/images/left.jpg)
+  background-image: url(./assets/images/left.jpg)
 }
 
 .theme-image-right {
   background-position: right top;
   background-size: 100% auto;
-  background-image: url(/assets/images/right.jpg)
+  background-image: url(./assets/images/right.jpg)
 }
 
 #main-nav li a {
@@ -435,7 +435,7 @@ button:hover {
 }
 
 #main-container-background {
-  background-image: url(/assets/images/background.jpg);
+  background-image: url(./assets/images/background.jpg);
   background-repeat: repeat;
   background-position: top
 }
