@@ -1,5 +1,9 @@
-<nav>
+<nav class="main-nav-hidden" id="main-nav">
+    <ul>
     {% for item in site.data.navigation %}
-    <a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name }}</a>
+    <li class="main-nav-item">
+        <a href="{{ item.link }}" {% if page.url == item.link %}class="selected"{% endif %}>{{ item.name }}</a>
+    </li>
     {% endfor %}
+    </ul>
 </nav>
