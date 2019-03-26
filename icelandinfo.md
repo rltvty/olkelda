@@ -77,6 +77,4 @@ Some ideas: https://expertvagabond.com/rin... , https://guidetoiceland.is , http
 * swimming: https://www.google.com/maps/d/viewer?mid=1Euajmy5pHG6th3nyQcx-hKa42CY&usp=sharing
 
 ## Transportation
-* We'll have a mini van on 6 July.
-
 * No car for Reykjavik, everything is at walking distance.
