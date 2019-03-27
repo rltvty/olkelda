@@ -5,7 +5,7 @@ title: Saturday
 # Saturday, July 6, 2019
 
 ## Ceremony
-10:00 Leaving Reykjavik by car for a 2 hour drive north
+10:00 AM Leaving Reykjavik by car for a 2 hour drive north
 
 1:00 PM Hike to Rauðamelsölkelda
 
