@@ -288,41 +288,41 @@ hr {
   }
 }
 
-.row, .section-items, .event-section-items, .wedding-event-section-items, .wedding-party-section-items, .location-section-items, .photo-section-items {
+.row, .section-items, .wedding-party-section-items, .location-section-items, .photo-section-items {
   margin-left: -10px;
   margin-right: -10px
 }
 
-.row:before, .section-items:before, .event-section-items:before, .wedding-event-section-items:before, .wedding-party-section-items:before, .location-section-items:before, .photo-section-items:before, .row:after, .section-items:after, .event-section-items:after, .wedding-event-section-items:after, .wedding-party-section-items:after, .location-section-items:after, .photo-section-items:after {
+.row:before, .section-items:before, .wedding-party-section-items:before, .location-section-items:before, .photo-section-items:before, .row:after, .section-items:after, .wedding-party-section-items:after, .location-section-items:after, .photo-section-items:after {
   content: " ";
   display: table
 }
 
-.row:after, .section-items:after, .event-section-items:after, .wedding-event-section-items:after, .wedding-party-section-items:after, .location-section-items:after, .photo-section-items:after {
+.row:after, .section-items:after, .wedding-party-section-items:after, .location-section-items:after, .photo-section-items:after {
   clear: both
 }
 
-.row:before, .section-items:before, .event-section-items:before, .wedding-event-section-items:before, .wedding-party-section-items:before, .location-section-items:before, .photo-section-items:before, .row:after, .section-items:after, .event-section-items:after, .wedding-event-section-items:after, .wedding-party-section-items:after, .location-section-items:after, .photo-section-items:after {
+.row:before, .section-items:before, .wedding-party-section-items:before, .location-section-items:before, .photo-section-items:before, .row:after, .section-items:after, .wedding-party-section-items:after, .location-section-items:after, .photo-section-items:after {
   content: " ";
   display: table
 }
 
-.row:after, .section-items:after, .event-section-items:after, .wedding-event-section-items:after, .wedding-party-section-items:after, .location-section-items:after, .photo-section-items:after {
+.row:after, .section-items:after, .wedding-party-section-items:after, .location-section-items:after, .photo-section-items:after {
   clear: both
 }
 
-.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .album-item, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .album-item, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .item, .event-item, .wedding-event-item, .location-item, .item-separator, .event-separator, .wedding-event-separator, .location-separator, .col-sm-12, .blank-seperator, .col-md-12, .col-lg-12 {
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .album-item, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .album-item, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .item, .location-item, .item-separator, .location-separator, .col-sm-12, .blank-seperator, .col-md-12, .col-lg-12 {
   position: relative;
   min-height: 1px;
   padding-left: 10px;
   padding-right: 10px
 }
 
-.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12, .item, .event-item, .wedding-event-item, .location-item, .item-separator, .event-separator, .wedding-event-separator, .location-separator {
+.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12, .item, .location-item, .item-separator, .location-separator {
   float: left
 }
 
-.col-xs-12, .item, .event-item, .wedding-event-item, .location-item, .item-separator, .event-separator, .wedding-event-separator, .location-separator {
+.col-xs-12, .item, .location-item, .item-separator, .location-separator {
   width: 100%
 }
 
@@ -2524,82 +2524,82 @@ button.main-nav {
   }
 }
 
-.section, .event-section, .wedding-event-section, .wedding-party-section, .location-section, .photo-section {
+.section, .wedding-party-section, .location-section, .photo-section {
   position: relative;
   overflow-wrap: break-word
 }
 
-.section-title, .event-section-title, .wedding-event-section-title, .wedding-party-section-title, .location-section-title, .photo-section-title {
+.section-title, .wedding-party-section-title, .location-section-title, .photo-section-title {
   max-width: 840px;
   margin: 0 auto;
   text-align: center;
   line-height: 1.5
 }
 
-.section-title-border-top, .event-section-title-border-top, .wedding-event-section-title-border-top, .wedding-party-section-title-border-top, .location-section-title-border-top, .photo-section-title-border-top {
+.section-title-border-top, .wedding-party-section-title-border-top, .location-section-title-border-top, .photo-section-title-border-top {
   background-position: center;
   width: 100%;
   max-width: 840px;
   margin: 0 auto
 }
 
-.section-title-border-bottom, .event-section-title-border-bottom, .wedding-event-section-title-border-bottom, .wedding-party-section-title-border-bottom, .location-section-title-border-bottom, .photo-section-title-border-bottom {
+.section-title-border-bottom, .wedding-party-section-title-border-bottom, .location-section-title-border-bottom, .photo-section-title-border-bottom {
   background-position: center;
   width: 100%;
   max-width: 840px;
   margin: 0 auto 24px auto
 }
 
-.section-image-container, .wedding-event-section-image-container, .wedding-party-section-image-container, .location-section-image-container, .photo-section-image-container {
+.section-image-container, .wedding-party-section-image-container, .location-section-image-container, .photo-section-image-container {
   text-align: center;
   margin-top: 20px;
   margin-bottom: 30px
 }
 
-.section-image, .event-section-image, .wedding-event-section-image, .wedding-party-section-image, .location-section-image, .photo-section-image {
+.section-image, .wedding-party-section-image, .location-section-image, .photo-section-image {
   border: 16px solid white;
   max-height: 640px;
   max-width: 100%
 }
 
-.section-description, .item-description, .event-description, .wedding-event-description, .wedding-party-description, .location-description, .event-section-description, .wedding-event-section-description, .wedding-party-section-description, .location-section-description, .photo-section-description {
+.section-description, .item-description, .wedding-party-description, .location-description, .wedding-party-section-description, .location-section-description, .photo-section-description {
   text-align: left;
   max-width: 840px;
   margin: 0 auto;
   font-size: 1.4em
 }
 
-.section-description p, .item-description p, .event-description p, .wedding-event-description p, .wedding-party-description p, .location-description p, .event-section-description p, .wedding-event-section-description p, .wedding-party-section-description p, .location-section-description p, .photo-section-description p, .section-description a, .item-description a, .event-description a, .wedding-event-description a, .wedding-party-description a, .location-description a, .event-section-description a, .wedding-event-section-description a, .wedding-party-section-description a, .location-section-description a, .photo-section-description a, .section-description a:hover, .item-description a:hover, .event-description a:hover, .wedding-event-description a:hover, .wedding-party-description a:hover, .location-description a:hover, .event-section-description a:hover, .wedding-event-section-description a:hover, .wedding-party-section-description a:hover, .location-section-description a:hover, .album-section-description a:hover, .photo-section-description a:hover {
+.section-description p, .item-description p, .wedding-party-description p, .location-description p, .wedding-party-section-description p, .location-section-description p, .photo-section-description p, .section-description a, .item-description a, .wedding-party-description a, .location-description a, .wedding-party-section-description a, .location-section-description a, .photo-section-description a, .section-description a:hover, .item-description a:hover, .wedding-party-description a:hover, .location-description a:hover, .wedding-party-section-description a:hover, .location-section-description a:hover, .album-section-description a:hover, .photo-section-description a:hover {
   font-size: 1em
 }
 
-.section-description ol, .item-description ol, .event-description ol, .wedding-event-description ol, .wedding-party-description ol, .location-description ol, .event-section-description ol, .wedding-event-section-description ol, .wedding-party-section-description ol, .location-section-description ol, .photo-section-description ol {
+.section-description ol, .item-description ol, .wedding-party-description ol, .location-description ol, .wedding-party-section-description ol, .location-section-description ol, .photo-section-description ol {
   margin: 0;
   padding: 0
 }
 
-.section-description ol li, .item-description ol li, .event-description ol li, .wedding-event-description ol li, .wedding-party-description ol li, .location-description ol li, .event-section-description ol li, .wedding-event-section-description ol li, .wedding-party-section-description ol li, .location-section-description ol li, .photo-section-description ol li {
+.section-description ol li, .item-description ol li, .wedding-party-description ol li, .location-description ol li, .wedding-party-section-description ol li, .location-section-description ol li, .photo-section-description ol li {
   text-align: left;
   list-style: decimal
 }
 
-.section-description ul li, .item-description ul li, .event-description ul li, .wedding-event-description ul li, .wedding-party-description ul li, .location-description ul li, .event-section-description ul li, .wedding-event-section-description ul li, .wedding-party-section-description ul li, .location-section-description ul li, .photo-section-description ul li {
+.section-description ul li, .item-description ul li, .wedding-party-description ul li, .location-description ul li, .wedding-party-section-description ul li, .location-section-description ul li, .photo-section-description ul li {
   text-align: left;
   list-style: disc
 }
 
-.section-items, .event-section-items, .wedding-event-section-items, .wedding-party-section-items, .location-section-items, .photo-section-items {
+.section-items, .wedding-party-section-items, .location-section-items, .photo-section-items {
   max-width: 840px;
   margin: auto
 }
 
-.section-separator, .event-section-separator, .wedding-event-section-separator, .wedding-party-section-separator, .location-section-separator, .photo-section-separator {
+.section-separator, .wedding-party-section-separator, .location-section-separator, .photo-section-separator {
   max-width: 840px;
   margin: 40px auto;
   background-size: contain
 }
 
-.section-separator:last-of-type, .event-section-separator:last-of-type, .wedding-event-section-separator:last-of-type, .wedding-party-section-separator:last-of-type, .location-section-separator:last-of-type, .photo-section-separator:last-of-type {
+.section-separator:last-of-type, .wedding-party-section-separator:last-of-type, .location-section-separator:last-of-type, .photo-section-separator:last-of-type {
   visibility: hidden !important;
   display: none !important
 }
@@ -2612,103 +2612,78 @@ button.main-nav {
 }
 
 @media (max-width: 767px) {
-  .section-title-border-bottom, .event-section-title-border-bottom, .wedding-event-section-title-border-bottom, .wedding-party-section-title-border-bottom, .location-section-title-border-bottom, .photo-section-title-border-bottom {
+  .section-title-border-bottom, .wedding-party-section-title-border-bottom, .location-section-title-border-bottom, .photo-section-title-border-bottom {
     margin-bottom: 10px
   }
 
-  .section-image-container, .wedding-event-section-image-container, .wedding-party-section-image-container, .location-section-image-container, .photo-section-image-container {
+  .section-image-container, .wedding-party-section-image-container, .location-section-image-container, .photo-section-image-container {
     margin-top: 10px
   }
 
-  .section-separator, .event-section-separator, .wedding-event-section-separator, .wedding-party-section-separator, .location-section-separator, .photo-section-separator {
+  .section-separator, .wedding-party-section-separator, .location-section-separator, .photo-section-separator {
     margin: 30px auto
   }
 
-  .section-image, .event-section-image, .wedding-event-section-image, .wedding-party-section-image, .location-section-image, .photo-section-image {
+  .section-image, .wedding-party-section-image, .location-section-image, .photo-section-image {
     border-width: 6px
   }
 }
 
-.item, .event-item, .wedding-event-item, .location-item {
+.item, .location-item {
   position: relative
 }
 
-.item-title, .event-title, .wedding-event-title, .location-title {
+.item-title, .location-title {
   text-align: center
 }
 
-.item-image-container, .event-image-container, .wedding-event-image-container, .location-image-container {
+.item-image-container, .location-image-container {
   text-align: center;
   margin-top: 20px;
   margin-bottom: 30px
 }
 
-.item-image, .event-image, .wedding-event-image, .location-image {
+.item-image, .location-image {
   border: 16px solid white;
   max-height: 640px;
   max-width: 100%
 }
 
-.item-description p:not(:first-of-type), .event-description p:not(:first-of-type), .wedding-event-description p:not(:first-of-type), .wedding-party-description p:not(:first-of-type), .location-description p:not(:first-of-type) {
+.item-description p:not(:first-of-type),  .wedding-party-description p:not(:first-of-type), .location-description p:not(:first-of-type) {
   margin-top: 15px
 }
 
-.item-button-container, .event-button-container, .wedding-event-button-container, .location-button-container {
+.item-button-container, .location-button-container {
   text-align: center;
   margin-top: 12px
 }
 
-.item-button-container a > button, .event-button-container a > button, .wedding-event-button-container a > button, .location-button-container a > button {
+.item-button-container a > button, .location-button-container a > button {
   margin-left: 6px
 }
 
-.item-button-container a:first-child > button, .event-button-container a:first-child > button, .wedding-event-button-container a:first-child > button, .location-button-container a:first-child > button {
+.item-button-container a:first-child > button, .location-button-container a:first-child > button {
   margin-left: 0
 }
 
-.item-separator, .event-separator, .wedding-event-separator, .location-separator {
+.item-separator, .location-separator {
   margin-top: 20px;
   margin-bottom: 20px
 }
 
-.item-separator:last-of-type, .event-separator:last-of-type, .wedding-event-separator:last-of-type, .location-separator:last-of-type {
+.item-separator:last-of-type, .location-separator:last-of-type {
   visibility: hidden !important;
   display: none !important
 }
 
 @media (max-width: 767px) {
-  .item-title, .event-title, .wedding-event-title, .location-title {
+  .item-title, .location-title {
     font-size: 20px !important
   }
 
-  .item-image, .event-image, .wedding-event-image, .location-image {
+  .item-image, .location-image {
     border-width: 6px
   }
-}
-
-.event-address, .event-venue, .event-attire, .event-date {
-  text-align: center;
-  font-size: 1.5em;
-  line-height: 2
-}
-
-.event-button-container button {
-  display: inline-block
-}
-
-.wedding-event-address, .wedding-event-venue, .wedding-event-attire, .wedding-event-date {
-  text-align: center;
-  font-size: 1.5em;
-  line-height: 2
-}
-
-.wedding-event-button-container button {
-  display: inline-block
-}
-
-.wedding-event-separator:last-of-type {
-  display: block;
-  visibility: visible
 }
 
 .wedding-party-item {

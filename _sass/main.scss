@@ -28,9 +28,6 @@
   padding: 0 !important
 }
 
-.event-description {
-  text-align: center
-}
 
 @media (min-width: 768px) {
   .main-nav-container-container {
@@ -173,39 +170,39 @@ h2, #wedding-date-location, #wedding-countdown {
   margin-top: 10px
 }
 
-.section-title-border-bottom, .event-section-title-border-bottom, .wedding-event-section-title-border-bottom, .wedding-party-section-title-border-bottom, .location-section-title-border-bottom, .registry-section-title-border-bottom,  .photo-section-title-border-bottom {
+.section-title-border-bottom, .wedding-party-section-title-border-bottom, .location-section-title-border-bottom, .registry-section-title-border-bottom,  .photo-section-title-border-bottom {
   margin: 0 auto 15px auto
 }
 
-.section-image-container, .wedding-event-section-image-container, .wedding-party-section-image-container, .location-section-image-container, .registry-section-image-container, .photo-section-image-container {
+.section-image-container, .wedding-party-section-image-container, .location-section-image-container, .registry-section-image-container, .photo-section-image-container {
   margin-top: 20px;
   margin-bottom: 20px
 }
 
-.item-title, .event-title, .wedding-event-title, .location-title {
+.item-title, .location-title {
   margin-bottom: 15px
 }
 
-.item-image-container, .wedding-event-image-container {
+.item-image-container {
   margin-top: 20px;
   margin-bottom: 20px
 }
 
-.event-image-container, .location-image-container {
+.location-image-container {
   margin-top: 20px;
   margin-bottom: 20px
 }
 
-.item-image, .event-image, .wedding-event-image, .location-image {
+.item-image, .location-image {
   border: 0;
   max-height: 800px
 }
 
-.section-separator, .event-section-separator, .wedding-event-section-separator, .wedding-party-section-separator, .location-section-separator, .registry-section-separator, .photo-section-separator {
+.section-separator, .wedding-party-section-separator, .location-section-separator, .registry-section-separator, .photo-section-separator {
   margin: 20px auto 20px auto
 }
 
-.item-separator, .event-separator, .wedding-event-separator, .location-separator {
+.item-separator, .location-separator {
   margin-top: 15px;
   margin-bottom: 15px
 }
@@ -214,15 +211,15 @@ h2, #wedding-date-location, #wedding-countdown {
   text-align: left
 }
 
-.section-title-border-top, .event-section-title-border-top, .wedding-event-section-title-border-top, .wedding-party-section-title-border-top, .location-section-title-border-top, .registry-section-title-border-top, .photo-section-title-border-top {
+.section-title-border-top, .wedding-party-section-title-border-top, .location-section-title-border-top, .registry-section-title-border-top, .photo-section-title-border-top {
   margin: 10px auto 10px auto
 }
 
-.section-title-border-bottom, .event-section-title-border-bottom, .wedding-event-section-title-border-bottom, .wedding-party-section-title-border-bottom, .location-section-title-border-bottom, .registry-section-title-border-bottom, .photo-section-title-border-bottom {
+.section-title-border-bottom, .wedding-party-section-title-border-bottom, .location-section-title-border-bottom, .registry-section-title-border-bottom, .photo-section-title-border-bottom {
   margin: 10px auto 15px auto
 }
 
-.section-description, .item-description, .wedding-event-description, .wedding-party-description, .location-description, .registry-note, .event-section-description, .wedding-event-section-description, .wedding-party-section-description, .location-section-description, .registry-section-description, .photo-section-description {
+.section-description, .item-description, .wedding-party-description, .location-description, .registry-note, .wedding-party-section-description, .location-section-description, .registry-section-description, .photo-section-description {
   text-align: left
 }
 
@@ -240,7 +237,7 @@ h2, #wedding-date-location, #wedding-countdown {
   margin-bottom: 15px
 }
 
-.item-button-container, .event-button-container, .wedding-event-button-container, .location-button-container {
+.item-button-container, .location-button-container {
   margin-top: 15px;
   margin-bottom: 15px
 }
@@ -269,7 +266,7 @@ button.mfp-arrow {
   border: 0 !important
 }
 
-.item-image, .section-image, .event-section-image, .wedding-event-section-image, .wedding-party-section-image, .location-section-image, .registry-section-image, .photo-section-image {
+.item-image, .section-image,  .wedding-party-section-image, .location-section-image, .registry-section-image, .photo-section-image {
   border: 0 !important;
   background: transparent
 }
@@ -305,7 +302,7 @@ body, .footer-text {
   .item-title {
     font-size: 1.375rem !important
   }
-  .event-address, .event-venue, .event-attire, .event-date, div[class*='-description'], div[class*='-description'] p, div[class*='-note'], div[class*='-address'], div[class*='-venue'], div[class*='-attire'], div[class*='-date'] {
+  div[class*='-description'], div[class*='-description'] p, div[class*='-note'], div[class*='-address'], div[class*='-venue'], div[class*='-attire'], div[class*='-date'] {
     font-size: 1rem
   }
   .wedding-party-title {
@@ -324,7 +321,7 @@ body, .footer-text {
   .item-title {
     font-size: 1.375em !important
   }
-  .event-address, .event-venue, .event-attire, .event-date, div[class*='-description'], div[class*='-description'] p, div[class*='-note'], div[class*='-address'], div[class*='-venue'], div[class*='-attire'], div[class*='-date'] {
+  div[class*='-description'], div[class*='-description'] p, div[class*='-note'], div[class*='-address'], div[class*='-venue'], div[class*='-attire'], div[class*='-date'] {
     font-size: 1rem
   }
   .wedding-party-title {
@@ -343,7 +340,7 @@ body, .footer-text {
   .item-title {
     font-size: 1.375em !important
   }
-  .event-address, .event-venue, .event-attire, .event-date, div[class*='-description'], div[class*='-description'] p, div[class*='-note'], div[class*='-address'], div[class*='-venue'], div[class*='-attire'], div[class*='-date'] {
+  div[class*='-description'], div[class*='-description'] p, div[class*='-note'], div[class*='-address'], div[class*='-venue'], div[class*='-attire'], div[class*='-date'] {
     font-size: 1rem
   }
   .wedding-party-title {
@@ -442,7 +439,7 @@ button:hover {
 
 
 
-.event-section-title, .location-section-title, .photo-section-title, .registry-section-title, .section-title, .wedding-event-section-title, .wedding-party-section-title {
+.location-section-title, .photo-section-title, .registry-section-title, .section-title, .wedding-party-section-title {
   font-family: "Orbitron", "sans-serif";
   font-size: 2.5rem;
   font-style: normal;
@@ -451,11 +448,11 @@ button:hover {
   color: #FFFFFF
 }
 
-.event-section-separator, .location-section-separator, .photo-section-separator, .registry-section-separator, .section-separator, .wedding-event-section-separator, .wedding-party-section-separator {
+.location-section-separator, .photo-section-separator, .registry-section-separator, .section-separator, .wedding-party-section-separator {
   height: 1px
 }
 
-.event-title, .item-title, .location-title, .wedding-event-title {
+.item-title, .location-title, {
   font-family: 'Roboto', sans-serif;
   font-size: 28px;
   font-style: normal;
