@@ -1896,65 +1896,6 @@ button {
   text-decoration: inherit
 }
 
-.theme-image-container, .theme-image-container-bottom {
-  width: 100%;
-  padding-bottom: 12%
-}
-
-.theme-image-container {
-  position: relative
-}
-
-.theme-image-container-bottom {
-  position: absolute;
-  bottom: 0
-}
-
-.theme-image-container-left, .theme-image-container-right {
-  width: 12%;
-  max-width: 132px;
-  position: fixed;
-  top: 0;
-  bottom: 0
-}
-
-.theme-image-container-right {
-  right: 0
-}
-
-.theme-image, .theme-image-layer-top, .theme-image-bottom, .theme-image-left, .theme-image-right {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  width: 100%;
-  height: 100%;
-  background-size: contain;
-  background-repeat: no-repeat
-}
-
-@media (min-width: 1200px) {
-  #main-container {
-    padding-bottom: 120px
-  }
-
-  .theme-image-container, .theme-image-container-bottom {
-    padding: 0;
-    height: 120px
-  }
-}
-
-@media (max-width: 1199px) {
-  .theme-image-left, .theme-image-right {
-    visibility: hidden !important;
-    display: none !important
-  }
-
-  #content {
-    margin-top: 20px
-  }
-}
-
 .center {
   text-align: center
 }
@@ -2124,65 +2065,6 @@ button {
 
 #content #products-grid-app-root a {
   text-decoration: inherit
-}
-
-.theme-image-container, .theme-image-container-bottom {
-  width: 100%;
-  padding-bottom: 12%
-}
-
-.theme-image-container {
-  position: relative
-}
-
-.theme-image-container-bottom {
-  position: absolute;
-  bottom: 0
-}
-
-.theme-image-container-left, .theme-image-container-right {
-  width: 12%;
-  max-width: 132px;
-  position: fixed;
-  top: 0;
-  bottom: 0
-}
-
-.theme-image-container-right {
-  right: 0
-}
-
-.theme-image, .theme-image-layer-top, .theme-image-bottom, .theme-image-left, .theme-image-right {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  width: 100%;
-  height: 100%;
-  background-size: contain;
-  background-repeat: no-repeat
-}
-
-@media (min-width: 1200px) {
-  #main-container {
-    padding-bottom: 120px
-  }
-
-  .theme-image-container, .theme-image-container-bottom {
-    padding: 0;
-    height: 120px
-  }
-}
-
-@media (max-width: 1199px) {
-  .theme-image-left, .theme-image-right {
-    visibility: hidden !important;
-    display: none !important
-  }
-
-  #content {
-    margin-top: 20px
-  }
 }
 
 .center {
@@ -2408,10 +2290,6 @@ button.main-nav {
   font-family: HelveticaNeue, Helvetica, Arial, sans-serif
 }
 
-#wedding-title {
-  margin: 6px 0 8px 0;
-  line-height: 1
-}
 
 #wedding-date, #wedding-location {
   display: inline
@@ -2430,26 +2308,6 @@ button.main-nav {
   font-size: 1.6em
 }
 
-#title-container {
-  position: relative;
-  padding: 5px 10px 20px 0;
-  text-align: center;
-  background-color: white
-}
-
-@media (max-width: 767px) {
-  #wedding-title {
-    font-size: 28px !important
-  }
-
-  #wedding-date-location {
-    font-size: 18px !important
-  }
-
-  #title-container {
-    padding-bottom: 13px
-  }
-}
 
 .page {
   position: relative;
@@ -2513,32 +2371,6 @@ button.main-nav {
   max-width: 100%
 }
 
-.section-description, .item-description, .location-description, .location-section-description {
-  text-align: left;
-  max-width: 840px;
-  margin: 0 auto;
-  font-size: 1.4em
-}
-
-.section-description p, .item-description p, .location-description p, .location-section-description p, .section-description a, .item-description a, .location-description a, .location-section-description a, .photo-section-description a, .section-description a:hover, .item-description a:hover, .location-description a:hover, .location-section-description a:hover, .album-section-description a:hover, .photo-section-description a:hover {
-  font-size: 1em
-}
-
-.section-description ol, .item-description ol, .location-description ol, .location-section-description ol {
-  margin: 0;
-  padding: 0
-}
-
-.section-description ol li, .item-description ol li, .location-description ol li, .location-section-description ol li {
-  text-align: left;
-  list-style: decimal
-}
-
-.section-description ul li, .item-description ul li, .location-description ul li, .location-section-description ul li {
-  text-align: left;
-  list-style: disc
-}
-
 .section-items, .location-section-items {
   max-width: 840px;
   margin: auto
@@ -2600,20 +2432,16 @@ button.main-nav {
   max-width: 100%
 }
 
-.item-description p:not(:first-of-type), .location-description p:not(:first-of-type) {
-  margin-top: 15px
-}
-
-.item-button-container, .location-button-container {
+.item-button-container {
   text-align: center;
   margin-top: 12px
 }
 
-.item-button-container a > button, .location-button-container a > button {
+.item-button-container a > button {
   margin-left: 6px
 }
 
-.item-button-container a:first-child > button, .location-button-container a:first-child > button {
+.item-button-container a:first-child > button {
   margin-left: 0
 }
 
@@ -2635,16 +2463,6 @@ button.main-nav {
   .item-image, .location-image {
     border-width: 6px
   }
-}
-
-.location-address, .location-venue, .location-attire, .location-date {
-  text-align: center;
-  font-size: 1.5em;
-  line-height: 2
-}
-
-.location-button-container button {
-  display: inline-block
 }
 
 @font-face {
@@ -2672,19 +2490,6 @@ button.main-nav {
   border: 10px white solid;
   border-bottom: none;
   padding-bottom: 80%
-}
-
-.album-description {
-  background-color: white;
-  padding: 0 10px;
-  height: 80px;
-  line-height: 80px;
-  text-align: center;
-  font-size: 1.6em;
-  color: #666;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  overflow: hidden
 }
 
 @media (min-width: 768px) {
