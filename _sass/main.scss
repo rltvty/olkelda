@@ -86,7 +86,9 @@ input {
 }
 
 li {
-  list-style: circle inside;
+  list-style-type: disc;
+  list-style-position: outside;
+  margin-left: 20px;
 }
 
 p {
