@@ -170,11 +170,11 @@ h2, #wedding-date-location, #wedding-countdown {
   margin-top: 10px
 }
 
-.section-title-border-bottom, .location-section-title-border-bottom, .photo-section-title-border-bottom {
+.section-title-border-bottom, .location-section-title-border-bottom {
   margin: 0 auto 15px auto
 }
 
-.section-image-container, .location-section-image-container, .photo-section-image-container {
+.section-image-container, .location-section-image-container {
   margin-top: 20px;
   margin-bottom: 20px
 }
@@ -198,7 +198,7 @@ h2, #wedding-date-location, #wedding-countdown {
   max-height: 800px
 }
 
-.section-separator, .location-section-separator, .photo-section-separator {
+.section-separator, .location-section-separator {
   margin: 20px auto 20px auto
 }
 
@@ -207,15 +207,15 @@ h2, #wedding-date-location, #wedding-countdown {
   margin-bottom: 15px
 }
 
-.section-title-border-top, .location-section-title-border-top, .photo-section-title-border-top {
+.section-title-border-top, .location-section-title-border-top {
   margin: 10px auto 10px auto
 }
 
-.section-title-border-bottom, .location-section-title-border-bottom, .photo-section-title-border-bottom {
+.section-title-border-bottom, .location-section-title-border-bottom {
   margin: 10px auto 15px auto
 }
 
-.section-description, .item-description, .location-description, .location-section-description, .photo-section-description {
+.section-description, .item-description, .location-description, .location-section-description {
   text-align: left
 }
 
@@ -258,7 +258,7 @@ button.mfp-arrow {
   border: 0 !important
 }
 
-.item-image, .section-image, .location-section-image, .photo-section-image {
+.item-image, .section-image, .location-section-image {
   border: 0 !important;
   background: transparent
 }
@@ -427,7 +427,7 @@ button:hover {
   background-color: rgba(29, 53, 79, 0.9)
 }
 
-.location-section-title, .photo-section-title, .section-title {
+.location-section-title, .section-title {
   font-family: "Orbitron", "sans-serif";
   font-size: 2.5rem;
   font-style: normal;
@@ -436,7 +436,7 @@ button:hover {
   color: #FFFFFF
 }
 
-.location-section-separator, .photo-section-separator, .section-separator {
+.location-section-separator, .section-separator {
   height: 1px
 }
 

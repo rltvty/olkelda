@@ -288,26 +288,26 @@ hr {
   }
 }
 
-.row, .section-items, .location-section-items, .photo-section-items {
+.row, .section-items, .location-section-items {
   margin-left: -10px;
   margin-right: -10px
 }
 
-.row:before, .section-items:before, .location-section-items:before, .photo-section-items:before, .row:after, .section-items:after, .location-section-items:after, .photo-section-items:after {
+.row:before, .section-items:before, .location-section-items:before, .row:after, .section-items:after, .location-section-items:after {
   content: " ";
   display: table
 }
 
-.row:after, .section-items:after, .location-section-items:after, .photo-section-items:after {
+.row:after, .section-items:after, .location-section-items:after {
   clear: both
 }
 
-.row:before, .section-items:before, .location-section-items:before, .photo-section-items:before, .row:after, .section-items:after, .location-section-items:after, .photo-section-items:after {
+.row:before, .section-items:before, .location-section-items:before .row:after, .section-items:after, .location-section-items:after {
   content: " ";
   display: table
 }
 
-.row:after, .section-items:after, .location-section-items:after, .photo-section-items:after {
+.row:after, .section-items:after, .location-section-items:after {
   clear: both
 }
 
@@ -1516,7 +1516,7 @@ hr {
   }
 }
 
-.hidden-xs, .photo-section-title-container button {
+.hidden-xs  {
   display: block !important
 }
 
@@ -1533,25 +1533,25 @@ th.hidden-xs, td.hidden-xs {
 }
 
 @media (max-width: 639px) {
-  .hidden-xs, .photo-section-title-container button, tr.hidden-xs, th.hidden-xs, td.hidden-xs {
+  .hidden-xs, tr.hidden-xs, th.hidden-xs, td.hidden-xs {
     display: none !important
   }
 }
 
 @media (min-width: 640px) and (max-width: 767px) {
-  .hidden-xs.hidden-sm, .photo-section-title-container button.hidden-sm, tr.hidden-xs.hidden-sm, th.hidden-xs.hidden-sm, td.hidden-xs.hidden-sm {
+  .hidden-xs.hidden-sm, tr.hidden-xs.hidden-sm, th.hidden-xs.hidden-sm, td.hidden-xs.hidden-sm {
     display: none !important
   }
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
-  .hidden-xs.hidden-md, button.hidden-xs.main-nav, .photo-section-title-container button.main-nav, .photo-section-title-container button.hidden-md, tr.hidden-xs.hidden-md, th.hidden-xs.hidden-md, td.hidden-xs.hidden-md {
+  .hidden-xs.hidden-md, button.hidden-xs.main-nav, tr.hidden-xs.hidden-md, th.hidden-xs.hidden-md, td.hidden-xs.hidden-md {
     display: none !important
   }
 }
 
 @media (min-width: 1024px) {
-  .hidden-xs.hidden-lg, button.hidden-xs.main-nav, .photo-section-title-container button.main-nav, .photo-section-title-container button.hidden-lg, tr.hidden-xs.hidden-lg, th.hidden-xs.hidden-lg, td.hidden-xs.hidden-lg {
+  .hidden-xs.hidden-lg, button.hidden-xs.main-nav, tr.hidden-xs.hidden-lg, th.hidden-xs.hidden-lg, td.hidden-xs.hidden-lg {
     display: none !important
   }
 }
@@ -1573,7 +1573,7 @@ th.hidden-sm, td.hidden-sm {
 }
 
 @media (max-width: 639px) {
-  .hidden-sm.hidden-xs, .photo-section-title-container button.hidden-sm, tr.hidden-sm.hidden-xs, th.hidden-sm.hidden-xs, td.hidden-sm.hidden-xs {
+  .hidden-sm.hidden-xs, tr.hidden-sm.hidden-xs, th.hidden-sm.hidden-xs, td.hidden-sm.hidden-xs {
     display: none !important
   }
 }
@@ -1613,7 +1613,7 @@ th.hidden-md, td.hidden-md {
 }
 
 @media (max-width: 639px) {
-  .hidden-md.hidden-xs, button.hidden-xs.main-nav, .photo-section-title-container button.main-nav, .photo-section-title-container button.hidden-md, tr.hidden-md.hidden-xs, th.hidden-md.hidden-xs, td.hidden-md.hidden-xs {
+  .hidden-md.hidden-xs, button.hidden-xs.main-nav, tr.hidden-md.hidden-xs, th.hidden-md.hidden-xs, td.hidden-md.hidden-xs {
     display: none !important
   }
 }
@@ -1653,7 +1653,7 @@ th.hidden-lg, td.hidden-lg {
 }
 
 @media (max-width: 639px) {
-  .hidden-lg.hidden-xs, button.hidden-xs.main-nav, .photo-section-title-container button.main-nav, .photo-section-title-container button.hidden-lg, tr.hidden-lg.hidden-xs, th.hidden-lg.hidden-xs, td.hidden-lg.hidden-xs {
+  .hidden-lg.hidden-xs, button.hidden-xs.main-nav, tr.hidden-lg.hidden-xs, th.hidden-lg.hidden-xs, td.hidden-lg.hidden-xs {
     display: none !important
   }
 }
@@ -2475,82 +2475,82 @@ button.main-nav {
   }
 }
 
-.section, .location-section, .photo-section {
+.section, .location-section {
   position: relative;
   overflow-wrap: break-word
 }
 
-.section-title, .location-section-title, .photo-section-title {
+.section-title, .location-section-title {
   max-width: 840px;
   margin: 0 auto;
   text-align: center;
   line-height: 1.5
 }
 
-.section-title-border-top, .location-section-title-border-top, .photo-section-title-border-top {
+.section-title-border-top, .location-section-title-border-top {
   background-position: center;
   width: 100%;
   max-width: 840px;
   margin: 0 auto
 }
 
-.section-title-border-bottom, .location-section-title-border-bottom, .photo-section-title-border-bottom {
+.section-title-border-bottom, .location-section-title-border-bottom {
   background-position: center;
   width: 100%;
   max-width: 840px;
   margin: 0 auto 24px auto
 }
 
-.section-image-container, .location-section-image-container, .photo-section-image-container {
+.section-image-container, .location-section-image-container {
   text-align: center;
   margin-top: 20px;
   margin-bottom: 30px
 }
 
-.section-image, .location-section-image, .photo-section-image {
+.section-image, .location-section-image {
   border: 16px solid white;
   max-height: 640px;
   max-width: 100%
 }
 
-.section-description, .item-description, .location-description, .location-section-description, .photo-section-description {
+.section-description, .item-description, .location-description, .location-section-description {
   text-align: left;
   max-width: 840px;
   margin: 0 auto;
   font-size: 1.4em
 }
 
-.section-description p, .item-description p, .location-description p, .location-section-description p, .photo-section-description p, .section-description a, .item-description a, .location-description a, .location-section-description a, .photo-section-description a, .section-description a:hover, .item-description a:hover, .location-description a:hover, .location-section-description a:hover, .album-section-description a:hover, .photo-section-description a:hover {
+.section-description p, .item-description p, .location-description p, .location-section-description p, .section-description a, .item-description a, .location-description a, .location-section-description a, .photo-section-description a, .section-description a:hover, .item-description a:hover, .location-description a:hover, .location-section-description a:hover, .album-section-description a:hover, .photo-section-description a:hover {
   font-size: 1em
 }
 
-.section-description ol, .item-description ol, .location-description ol, .location-section-description ol, .photo-section-description ol {
+.section-description ol, .item-description ol, .location-description ol, .location-section-description ol {
   margin: 0;
   padding: 0
 }
 
-.section-description ol li, .item-description ol li, .location-description ol li, .location-section-description ol li, .photo-section-description ol li {
+.section-description ol li, .item-description ol li, .location-description ol li, .location-section-description ol li {
   text-align: left;
   list-style: decimal
 }
 
-.section-description ul li, .item-description ul li, .location-description ul li, .location-section-description ul li, .photo-section-description ul li {
+.section-description ul li, .item-description ul li, .location-description ul li, .location-section-description ul li {
   text-align: left;
   list-style: disc
 }
 
-.section-items, .location-section-items, .photo-section-items {
+.section-items, .location-section-items {
   max-width: 840px;
   margin: auto
 }
 
-.section-separator, .location-section-separator, .photo-section-separator {
+.section-separator, .location-section-separator {
   max-width: 840px;
   margin: 40px auto;
   background-size: contain
 }
 
-.section-separator:last-of-type, .location-section-separator:last-of-type, .photo-section-separator:last-of-type {
+.section-separator:last-of-type, .location-section-separator:last-of-type {
   visibility: hidden !important;
   display: none !important
 }
@@ -2563,19 +2563,19 @@ button.main-nav {
 }
 
 @media (max-width: 767px) {
-  .section-title-border-bottom, .location-section-title-border-bottom, .photo-section-title-border-bottom {
+  .section-title-border-bottom, .location-section-title-border-bottom {
     margin-bottom: 10px
   }
 
-  .section-image-container, .location-section-image-container, .photo-section-image-container {
+  .section-image-container, .location-section-image-container {
     margin-top: 10px
   }
 
-  .section-separator, .location-section-separator, .photo-section-separator {
+  .section-separator, .location-section-separator {
     margin: 30px auto
   }
 
-  .section-image, .location-section-image, .photo-section-image {
+  .section-image, .location-section-image {
     border-width: 6px
   }
 }
@@ -2685,65 +2685,6 @@ button.main-nav {
   white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden
-}
-
-.photo-section-title-container {
-  position: relative
-}
-
-.photo-section-title-container button {
-  position: absolute;
-  bottom: 14px;
-  left: 4px
-}
-
-.photo-section-title {
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  overflow: hidden
-}
-
-.photo-section-title-border-top {
-  visibility: hidden
-}
-
-.photo-section-title-border-bottom {
-  margin-bottom: 6px;
-  visibility: hidden
-}
-
-.photo-section-items {
-  max-width: none
-}
-
-.photo-section .col-sm-4 {
-  margin: 0;
-  padding-left: 4px;
-  padding-right: 4px
-}
-
-.photo-item {
-  position: relative;
-  margin-top: 8px;
-  border: 10px solid white;
-  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.17);
-  -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.17);
-  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.17)
-}
-
-img.photo-image {
-  cursor: pointer;
-  width: 100%;
-  height: auto
-}
-
-.photo-caption {
-  padding: 0 15px 10px 15px;
-  text-align: center;
-  background-color: white;
-  color: #666;
-  font-size: 1.4em;
-  line-height: 1.4em
 }
 
 @media (min-width: 768px) {
