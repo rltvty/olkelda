@@ -1,0 +1,66 @@
+<!doctype html>
+<html class="wf-indieflower-n4-active wf-orbitron-n4-active wf-active" lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+</head>
+<body class="layout1 version-2">
+<div id="main-container-background"></div>
+
+<div class="details-page" id="main-container">
+    <div class="theme-image-container">
+        <div class="theme-image"></div>
+        <div class="theme-image-layer-top"></div>
+    </div>
+    <div class="theme-image-container-left">
+        <div class="theme-image-left"></div>
+    </div>
+    <div class="theme-image-container-right">
+        <div class="theme-image-right"></div>
+    </div>
+    <div class="hidden" id="title-container">
+        <div><h1 id="wedding-title">Anne-Marie &amp; Eric</h1>
+            <h2 id="wedding-date-location">
+                <span class="date-spacing"></span>
+                <span id="wedding-date">July 6, 2019</span>
+                <span class="date-spacing"></span>
+                <span id="separator"> • </span>
+                <span id="wedding-location">Iceland</span>
+            </h2>
+        </div>
+    </div>
+    <div class="main-nav-container-container">
+        <div class="has_content" id="main-nav-container">
+            <div class="main-nav-container-inner">
+                <div class="clearfix">
+                    <button class="main-nav">Menu</button>
+                </div>
+                {% include navigation.html %}
+            </div>
+        </div>
+    </div>
+    <header id="header">
+        <div class="header-background"></div>
+        <div id="cover-image" class="wide-cover-image is-desktop"
+             style="background-image: url(/olkelda/assets/images/san_fran_cropped.jpg);"></div>
+        <div id="cover-image" class="wide-cover-image is-mobile"
+             style="background-image: url(/olkelda/assets/images/san_fran_cropped.jpg)"></div>
+    </header>
+    <div id="content">
+        <div class="content-background"></div>
+        <div class="page">
+            <div class="page-background"></div>
+            <div class="page-sections">
+            </div>
+
+            {{ content }}
+        </div>
+    </div>
+    <div class="theme-image-container-bottom">
+        <div class="theme-image-bottom"></div>
+    </div>
+</div>
+</body>
+</html>
