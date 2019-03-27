@@ -1,5 +1,5 @@
 #cover-image {
-  position: absolute;
+  position: relative;
   left: 0;
   right: 0;
   top: 0;
@@ -11,6 +11,11 @@
   background-color: white;
   overflow: hidden;
   width: 100%
+}
+
+#header {
+  position: relative;
+  margin: auto
 }
 
 @media (max-width: 767px) {
@@ -43,25 +48,5 @@
 
   #cover-image.is-mobile {
     display: none
-  }
-}
-
-#header {
-  position: relative;
-  margin: auto
-}
-
-.header-background {
-  visibility: hidden !important;
-  display: none !important
-}
-
-@media (max-width: 767px) {
-  #header {
-    width: 100%
-  }
-
-  #cover-image {
-    padding-bottom: 80%
   }
 }
