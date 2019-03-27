@@ -2,7 +2,6 @@
 layout: default
 title: Saturday
 ---
-# Saturday, July 6, 2019
 
 ## Ceremony
 10:00 AM Leaving Reykjavik by car for a 2 hour drive north
@@ -15,9 +14,9 @@ Small lunch will be provided
 
 ## Dinner
 
-17:30 PM at ROK restaurant, Frakkastigur 26a (https://www.rokrestaurant.is). You can also join us at our house and walk over to the restaurant together.
+17:30 PM at ROK restaurant, Frakkastigur 26a (https://www.rokrestaurant.is). You can join us at our house and walk over to the restaurant together.
 
-A group menue with tapas-like dishes and vegan options will be provided.
+A group menu with tapas-like dishes and vegan options will be provided.
 
 Casual outfit is absolutely welcome.
 
