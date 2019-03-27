@@ -444,28 +444,3 @@
   background-image: url(../images/right.jpg)
 }
 
-.page {
-  position: relative;
-  margin-bottom: 1.5em;
-  width: 70%
-}
-
-@media (max-width: 767px) {
-  .page {
-    width: 90%
-  }
-}
-
-@media (min-width: 768px) {
-  .page {
-    width: 90%
-  }
-}
-
-@media (min-width: 1200px) {
-  .page {
-    width: 70%
-  }
-}
-
-

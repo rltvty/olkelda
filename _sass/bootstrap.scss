@@ -89,11 +89,6 @@ button {
   outline: 0
 }
 
-.section-label {
-  font-size: 18px;
-  font-weight: bold
-}
-
 #main-container {
   position: relative;
   min-height: calc(100vh - 120px);
@@ -130,29 +125,6 @@ button {
   }
 }
 
-#main-container-foreground {
-  position: fixed;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  z-index: 0;
-  background-color: rgba(0, 0, 0, 0.5)
-}
-
-
-
-
-#main-container-foreground {
-  position: fixed;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  z-index: 0;
-  background-color: rgba(0, 0, 0, 0.5)
-}
-
 #content {
   margin-top: 60px
 }
@@ -161,27 +133,8 @@ button {
   text-decoration: underline
 }
 
-#content #products-grid-app-root a {
-  text-decoration: inherit
-}
-
 .center {
   text-align: center
-}
-
-.back-btn {
-  color: #6cc6f0;
-  font-size: 14px;
-  font-weight: 400;
-  text-transform: uppercase;
-  cursor: pointer;
-  position: absolute;
-  left: 15px;
-  top: 11px
-}
-
-.back-btn:hover {
-  color: #a8ddf6
 }
 
 html {
@@ -257,11 +210,6 @@ button {
   outline: 0
 }
 
-.section-label {
-  font-size: 18px;
-  font-weight: bold
-}
-
 #main-container {
   position: relative;
   min-height: calc(100vh - 120px);
@@ -328,27 +276,8 @@ button {
   text-decoration: underline
 }
 
-#content #products-grid-app-root a {
-  text-decoration: inherit
-}
-
 .center {
   text-align: center
-}
-
-.back-btn {
-  color: #6cc6f0;
-  font-size: 14px;
-  font-weight: 400;
-  text-transform: uppercase;
-  cursor: pointer;
-  position: absolute;
-  left: 15px;
-  top: 11px
-}
-
-.back-btn:hover {
-  color: #a8ddf6
 }
 
 #main-nav-container {
