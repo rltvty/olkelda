@@ -7,14 +7,17 @@ title: Details
 
 * Don't bring presents :)
 
-* Do bring functional clothes and good shoes for some smaller hikes.
+* Do bring functional clothes (rain coat) and good shoes for some smaller hikes.
 
-* No need to bring festive outfits, we'll be quite casual, also when going out for dinner and at the ceremony. Just come as you are.
+* No need to bring formal outfits. Dress will be casual at dinner and at the ceremony. 
+
 
 # Your stay in Iceland
 * Airport to downtown https://iheartreykjavik.net/20...
 
 ## car rental
+
+* No car needed for Reykjavik, everything is at walking distance.
 
 * best to rent via Hertz or another established rental company. 
 
@@ -64,17 +67,12 @@ Some ideas: https://expertvagabond.com/rin... , https://guidetoiceland.is , http
 ## Reykjavik
 * with kids: https://www.kidsandcompass.com...
 
-* budget eats: 
+* Eats: 
   * https://adventures.is/blog/4-days-eating-in-reykjavik-without-blowing-your-budget/ 
   * https://foursquare.com/explore?cat=food&mode=url&near=Reykjavik%2C%20Iceland&nearGeoId=72057594041341765&price=1
-
-* Icelandic eats: 
   * https://foursquare.com/top-places/reykjavik/best-places-seafood 
   * https://kaffivagninn.is/en/
 
 * whale watching: https://www.viator.com/Iceland-tours/Dolphin-and-Whale-Watching/d55-g3-c77
 
 * swimming: https://www.google.com/maps/d/viewer?mid=1Euajmy5pHG6th3nyQcx-hKa42CY&usp=sharing
-
-## Transportation
-* No car for Reykjavik, everything is at walking distance.
