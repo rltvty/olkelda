@@ -8,7 +8,9 @@ title: Saturday
 10:00 Leaving Reykjavik by car for a 2 hour drive north
 
 1:00 PM Hike to Rauðamelsölkelda
+
 Attire: hiking gear
+
 Small lunch will be provided
 
 ## Dinner
