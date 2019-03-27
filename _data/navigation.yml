@@ -1,7 +1,9 @@
+- name: Home
+  link: /olkelda/
 - name: Friday
   link: /olkelda/friday.html
 - name: Saturday
-  link: /olkelda/
+  link: /olkelda/saturday.html
 - name: Sunday
   link: /olkelda/sunday.html
 - name: Iceland info
