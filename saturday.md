@@ -14,15 +14,13 @@ Attire: hiking gear
 Small lunch will be provided
 
 ## Dinner
-We reserved a table at XXX. Order will be à la carte; vegan options provided.
 
-### When, where, what?
-* We'll meet at the restaurant by 17:30. You're also invited to join us at our house and walk over to the restaurant together.
+17:30 PM at ROK restaurant, Frakkastigur 26a (https://www.rokrestaurant.is). You can also join us at our house and walk over to the restaurant together.
 
-* Casual outfit is absolutely welcome.
+A group menue with tapas-like dishes and vegan options will be provided.
+
+Casual outfit is absolutely welcome.
 
 ## After dinner
-After dinner on we might go out to some bars or fun spots with those of you who want to join us :)
+After dinner we might go out to some bars or fun spots with those of you who want to join us :)
 
-The next day, 7 July
-For those who want to join in, we'll have brunch together. Time & place TBD.
