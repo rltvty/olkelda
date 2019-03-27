@@ -1,4 +1,4 @@
-article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+article, aside, details, figcaption, figure, header, hgroup, main, nav, section, summary {
   display: block
 }
 
@@ -288,41 +288,41 @@ hr {
   }
 }
 
-.row, .section-items, .location-section-items {
+.row, .section-items {
   margin-left: -10px;
   margin-right: -10px
 }
 
-.row:before, .section-items:before, .location-section-items:before, .row:after, .section-items:after, .location-section-items:after {
+.row:before, .section-items:before, .row:after, .section-items:after {
   content: " ";
   display: table
 }
 
-.row:after, .section-items:after, .location-section-items:after {
+.row:after, .section-items:after {
   clear: both
 }
 
-.row:before, .section-items:before, .location-section-items:before .row:after, .section-items:after, .location-section-items:after {
+.row:before, .section-items:before, .section-items:after {
   content: " ";
   display: table
 }
 
-.row:after, .section-items:after, .location-section-items:after {
+.row:after, .section-items:after {
   clear: both
 }
 
-.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .album-item, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .album-item, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .item, .location-item, .item-separator, .location-separator, .col-sm-12, .blank-seperator, .col-md-12, .col-lg-12 {
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .item, .location-item, .col-sm-12, .blank-seperator, .col-md-12, .col-lg-12 {
   position: relative;
   min-height: 1px;
   padding-left: 10px;
   padding-right: 10px
 }
 
-.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12, .item, .location-item, .item-separator, .location-separator {
+.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12, .item, .location-item {
   float: left
 }
 
-.col-xs-12, .item, .location-item, .item-separator, .location-separator {
+.col-xs-12, .item, .location-item {
   width: 100%
 }
 
@@ -737,7 +737,7 @@ hr {
 }
 
 @media (min-width: 768px) {
-  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .album-item, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left
   }
 
@@ -765,7 +765,7 @@ hr {
     width: 58.333333333333336%
   }
 
-  .col-md-6, .album-item {
+  .col-md-6 {
     width: 50%
   }
 
@@ -947,7 +947,7 @@ hr {
 }
 
 @media (min-width: 1024px) {
-  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .album-item, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
     float: left
   }
 
@@ -983,7 +983,7 @@ hr {
     width: 41.66666666666667%
   }
 
-  .col-lg-4, .album-item {
+  .col-lg-4 {
     width: 33.33333333333333%
   }
 
@@ -2269,28 +2269,6 @@ button.main-nav {
   }
 }
 
-.footer {
-  position: relative;
-  width: 100%;
-  height: 32px;
-  line-height: 32px
-}
-
-.footer a, .footer a:hover {
-  font-family: HelveticaNeue, Helvetica, Arial, sans-serif;
-  font-size: 12px;
-  text-transform: none
-}
-
-.footer .footer-text {
-  text-align: center;
-  font-size: 12px;
-  font-style: normal;
-  text-transform: none;
-  font-family: HelveticaNeue, Helvetica, Arial, sans-serif
-}
-
-
 #wedding-date, #wedding-location {
   display: inline
 }
@@ -2303,86 +2281,44 @@ button.main-nav {
   display: none
 }
 
-#wedding-countdown {
-  margin: 3px 1px;
-  font-size: 1.6em
-}
-
-
-.page {
-  position: relative;
-  margin-bottom: 1.5em;
-  width: 70%
-}
-
-@media (max-width: 767px) {
-  .page {
-    width: 90%
-  }
-}
-
-@media (min-width: 768px) {
-  .page {
-    width: 90%
-  }
-}
-
-@media (min-width: 1200px) {
-  .page {
-    width: 70%
-  }
-}
-
-.section, .location-section {
+.section {
   position: relative;
   overflow-wrap: break-word
 }
 
-.section-title, .location-section-title {
+.section-title {
   max-width: 840px;
   margin: 0 auto;
   text-align: center;
   line-height: 1.5
 }
 
-.section-title-border-top, .location-section-title-border-top {
+.section-title-border-top {
   background-position: center;
   width: 100%;
   max-width: 840px;
   margin: 0 auto
 }
 
-.section-title-border-bottom, .location-section-title-border-bottom {
+.section-title-border-bottom {
   background-position: center;
   width: 100%;
   max-width: 840px;
   margin: 0 auto 24px auto
 }
 
-.section-image-container, .location-section-image-container {
-  text-align: center;
-  margin-top: 20px;
-  margin-bottom: 30px
-}
-
-.section-image, .location-section-image {
-  border: 16px solid white;
-  max-height: 640px;
-  max-width: 100%
-}
-
-.section-items, .location-section-items {
+.section-items {
   max-width: 840px;
   margin: auto
 }
 
-.section-separator, .location-section-separator {
+.section-separator {
   max-width: 840px;
   margin: 40px auto;
   background-size: contain
 }
 
-.section-separator:last-of-type, .location-section-separator:last-of-type {
+.section-separator:last-of-type {
   visibility: hidden !important;
   display: none !important
 }
@@ -2395,20 +2331,12 @@ button.main-nav {
 }
 
 @media (max-width: 767px) {
-  .section-title-border-bottom, .location-section-title-border-bottom {
+  .section-title-border-bottom {
     margin-bottom: 10px
   }
 
-  .section-image-container, .location-section-image-container {
-    margin-top: 10px
-  }
-
-  .section-separator, .location-section-separator {
+  .section-separator {
     margin: 30px auto
-  }
-
-  .section-image, .location-section-image {
-    border-width: 6px
   }
 }
 
@@ -2420,48 +2348,9 @@ button.main-nav {
   text-align: center
 }
 
-.item-image-container, .location-image-container {
-  text-align: center;
-  margin-top: 20px;
-  margin-bottom: 30px
-}
-
-.item-image, .location-image {
-  border: 16px solid white;
-  max-height: 640px;
-  max-width: 100%
-}
-
-.item-button-container {
-  text-align: center;
-  margin-top: 12px
-}
-
-.item-button-container a > button {
-  margin-left: 6px
-}
-
-.item-button-container a:first-child > button {
-  margin-left: 0
-}
-
-.item-separator, .location-separator {
-  margin-top: 20px;
-  margin-bottom: 20px
-}
-
-.item-separator:last-of-type, .location-separator:last-of-type {
-  visibility: hidden !important;
-  display: none !important
-}
-
 @media (max-width: 767px) {
   .item-title, .location-title {
     font-size: 20px !important
-  }
-
-  .item-image, .location-image {
-    border-width: 6px
   }
 }
 
@@ -2473,29 +2362,4 @@ button.main-nav {
 @font-face {
   font-family: "tisa-sans-0b8c";
   src: url(../fonts/tisa-sans-regular-720.woff) format("woff")
-}
-
-.album-item {
-  margin-bottom: 20px
-}
-
-.album-item-inner {
-  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.17);
-  cursor: pointer
-}
-
-.album-image {
-  background-size: cover;
-  background-position: center;
-  border: 10px white solid;
-  border-bottom: none;
-  padding-bottom: 80%
-}
-
-@media (min-width: 768px) {
-  .album-item {
-    margin-right: -4px;
-    display: inline-block;
-    float: none
-  }
 }

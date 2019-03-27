@@ -19,7 +19,7 @@
   }
 }
 
-h2, #wedding-date-location, #wedding-countdown {
+h2, #wedding-date-location {
   font-size: 1.25rem !important
 }
 
@@ -27,38 +27,8 @@ h2, #wedding-date-location, #wedding-countdown {
   margin-top: 10px
 }
 
-.section-image-container, .location-section-image-container {
-  margin-top: 20px;
-  margin-bottom: 20px
-}
-
-.item-image-container {
-  margin-top: 20px;
-  margin-bottom: 20px
-}
-
-.location-image-container {
-  margin-top: 20px;
-  margin-bottom: 20px
-}
-
-.item-image, .location-image {
-  border: 0;
-  max-height: 800px
-}
-
-.section-separator, .location-section-separator {
+.section-separator {
   margin: 20px auto 20px auto
-}
-
-.item-separator, .location-separator {
-  margin-top: 15px;
-  margin-bottom: 15px
-}
-
-.item-button-container {
-  margin-top: 15px;
-  margin-bottom: 15px
 }
 
 .content {
@@ -77,15 +47,6 @@ button {
   transition: all .25s
 }
 
-button.mfp-arrow {
-  border: 0 !important
-}
-
-.item-image, .section-image, .location-section-image {
-  border: 0 !important;
-  background: transparent
-}
-
 .main-nav-container-container:not(.nav-open) {
   height: 84px
 }
@@ -102,11 +63,11 @@ button.mfp-arrow {
   }
 }
 
-body, .footer-text {
+body {
   font-size: 16px
 }
 
-a, a:hover, body, .footer-text {
+a, a:hover, body {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-style: normal;
@@ -146,6 +107,6 @@ button:hover {
   background-color: rgba(29, 53, 79, 0.9)
 }
 
-.location-section-separator, .section-separator {
+.section-separator {
   height: 1px
 }

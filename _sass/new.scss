@@ -58,7 +58,7 @@
   background-color: white
 }
 
-#title-container #wedding-title, #title-container #wedding-date-location, #title-container #wedding-countdown {
+#title-container #wedding-title, #title-container #wedding-date-location {
   color: #fff
 }
 
@@ -442,6 +442,30 @@
   background-position: right top;
   background-size: 100% auto;
   background-image: url(../images/right.jpg)
+}
+
+.page {
+  position: relative;
+  margin-bottom: 1.5em;
+  width: 70%
+}
+
+@media (max-width: 767px) {
+  .page {
+    width: 90%
+  }
+}
+
+@media (min-width: 768px) {
+  .page {
+    width: 90%
+  }
+}
+
+@media (min-width: 1200px) {
+  .page {
+    width: 70%
+  }
 }
 
 
