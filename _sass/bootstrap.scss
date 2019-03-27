@@ -89,41 +89,9 @@ button {
   outline: 0
 }
 
-#main-container {
-  position: relative;
-  min-height: calc(100vh - 120px);
-  padding-bottom: 12%
-}
 
-#cover-image {
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  background-position: center;
-  background-size: cover
-}
 
-@media (max-width: 767px) {
-  #cover-image.is-desktop {
-    display: none
-  }
 
-  #cover-image.is-mobile {
-    display: block
-  }
-}
-
-@media (min-width: 768px) {
-  #cover-image.is-desktop {
-    display: block
-  }
-
-  #cover-image.is-mobile {
-    display: none
-  }
-}
 
 #content {
   margin-top: 60px
@@ -210,63 +178,9 @@ button {
   outline: 0
 }
 
-#main-container {
-  position: relative;
-  min-height: calc(100vh - 120px);
-  padding-bottom: 12%
-}
-
-#cover-image {
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  background-position: center;
-  background-size: cover
-}
-
-@media (max-width: 767px) {
-  #cover-image.is-desktop {
-    display: none
-  }
-
-  #cover-image.is-mobile {
-    display: block
-  }
-}
-
-@media (min-width: 768px) {
-  #cover-image.is-desktop {
-    display: block
-  }
-
-  #cover-image.is-mobile {
-    display: none
-  }
-}
-
-#main-container-foreground {
-  position: fixed;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  z-index: 0;
-  background-color: rgba(0, 0, 0, 0.5)
-}
 
 
 
-#main-container-foreground {
-  position: fixed;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  z-index: 0;
-  background-color: rgba(0, 0, 0, 0.5)
-}
 
 #content {
   margin-top: 60px
@@ -280,184 +194,8 @@ button {
   text-align: center
 }
 
-#main-nav-container {
-  position: relative;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  width: 100%;
-  text-align: center;
-  z-index: 1
-}
 
-.main-nav-container-container:not(.nav-open) {
-  height: 100px
-}
 
-#main-nav-container.fixed {
-  position: fixed !important;
-  left: 0;
-  top: 0;
-  right: 0;
-  background-color: white;
-  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.17);
-  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.17)
-}
-
-.main-nav-container-inner {
-  position: relative;
-  max-width: 70%;
-  margin-left: auto;
-  margin-right: auto
-}
-
-#main-nav {
-  display: block
-}
-
-#main-nav > ul > li {
-  position: relative;
-  display: inline-block;
-  padding: 8px 12px;
-  text-transform: uppercase
-}
-
-#main-nav > ul > li > ul {
-  visibility: hidden;
-  opacity: 0;
-  position: absolute;
-  max-width: 320px;
-  text-align: left;
-  background-color: white;
-  padding: 8px 24px 8px 12px;
-  -webkit-border-radius: 2px;
-  -moz-border-radius: 2px;
-  border-radius: 2px;
-  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.17);
-  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.17);
-  -webkit-transition: opacity 0.3s ease;
-  -o-transition: opacity 0.3s ease;
-  transition: opacity 0.3s ease;
-  z-index: 10001
-}
-
-#main-nav > ul > li:hover > ul {
-  visibility: visible !important;
-  opacity: 1
-}
-
-#main-nav > ul > li > ul > li {
-  padding-top: 4px;
-  padding-bottom: 4px;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  overflow: hidden
-}
-
-button.main-nav {
-  margin-left: 6px;
-  margin-right: 6px
-}
-
-@media (max-width: 767px) {
-  #main-nav.visible {
-    overflow-y: scroll
-  }
-
-  #main-nav-container {
-    position: relative;
-    padding-top: 8px;
-    padding-bottom: 8px
-  }
-
-  .main-nav-container-inner {
-    max-width: 100%
-  }
-
-  #main-nav {
-    visibility: hidden;
-    display: none;
-    margin-top: 10px
-  }
-
-  #main-nav.visible {
-    visibility: visible;
-    display: block
-  }
-
-  #main-nav > ul > li {
-    display: block;
-    padding: 6px 10px
-  }
-}
-
-@media (min-width: 768px) {
-  .main-nav-container-inner {
-    max-width: 90%
-  }
-}
-
-@media (min-width: 1200px) {
-  .main-nav-container-inner {
-    max-width: 70%
-  }
-}
-
-#header {
-  position: relative;
-  margin: auto
-}
-
-.header-background {
-  visibility: hidden !important;
-  display: none !important
-}
-
-#cover-image {
-  position: relative;
-  border: 15px solid white;
-  padding-bottom: 50%;
-  background-color: white;
-  overflow: hidden;
-  width: 100%
-}
-
-@media (max-width: 767px) {
-  #header {
-    width: 100%
-  }
-
-  #cover-image {
-    border-width: 8px
-  }
-
-  #cover-image.is-desktop {
-    display: none
-  }
-
-  #cover-image.is-mobile {
-    display: block
-  }
-}
-
-@media (min-width: 768px) {
-  #header {
-    width: 90%
-  }
-
-  #cover-image.is-desktop {
-    display: block
-  }
-
-  #cover-image.is-mobile {
-    display: none
-  }
-}
-
-@media (min-width: 1200px) {
-  #header {
-    width: 70%
-  }
-}
 
 #wedding-date, #wedding-location {
   display: inline
@@ -524,3 +262,5 @@ button.main-nav {
     margin: 30px auto
   }
 }
+
+
