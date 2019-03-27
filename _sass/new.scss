@@ -1,0 +1,43 @@
+#main-container-background {
+  background-image: url(../images/background.jpg);
+  background-repeat: repeat;
+  background-position: top
+}
+
+#main-container-background, #main-nav > ul > li > ul {
+  background-color: #1D354F
+}
+
+#main-container-background {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-position: center
+}
+
+#main-container-background {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-position: center
+}
+
+#main-container.content-page #content, #main-container.details-page #content, #main-container.registry-page #content, #main-container.photos-page #content {
+  margin-top: 0
+}
+
+#main-container.content-page #content, #main-container.details-page #content, #main-container.registry-page #content, #main-container.photos-page #content {
+  margin-top: 0
+}
+
+#main-container.details-page #main-nav-container {
+  margin-bottom: 0
+}
+
+#main-container.details-page #main-nav-container {
+  margin-bottom: 0
+}
