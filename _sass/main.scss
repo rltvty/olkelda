@@ -126,8 +126,28 @@ ul {
   margin: auto
 }
 
+.center-block, .page {
+  display: block;
+  margin-right: auto
+}
+
+@media (min-width: 1200px) {
+  .theme-image-container, .theme-image-container-bottom {
+    padding: 0;
+    height: 120px
+  }
+
+  .center-block, .page {
+    margin-left: 150px
+  }
+}
+
 @media (max-width: 1199px) {
   #content {
     margin-top: 20px
+  }
+
+  .center-block, .page {
+    margin-left: 20px
   }
 }
