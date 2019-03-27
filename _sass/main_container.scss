@@ -1,0 +1,28 @@
+#main-container {
+  position: relative;
+  min-height: calc(100vh - 120px);
+  padding-bottom: 12%
+}
+
+#main-container-background {
+  background-image: url(../images/background.jpg);
+  background-repeat: repeat;
+  //background-position: top;
+  background-position: center;
+  background-color: #1D354F;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+#main-container.details-page #content {
+  margin-top: 0
+}
+
+@media (min-width: 1200px) {
+  #main-container {
+    padding-bottom: 120px
+  }
+}

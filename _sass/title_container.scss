@@ -1,0 +1,102 @@
+#title-container {
+  background: transparent;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 0;
+  margin: 0 5%;
+  position: relative;
+  text-align: center;
+}
+
+#title-container #wedding-title, #title-container #wedding-date-location {
+  color: #fff
+}
+
+#wedding-date, #wedding-location {
+  display: inline
+}
+
+#wedding-location {
+  white-space: nowrap
+}
+
+#wedding-title {
+  font-family: "Orbitron", "sans-serif";
+  font-size: 3.5rem;
+  font-style: normal;
+  font-weight: normal;
+  color: #000000;
+  margin: 6px 0 8px 0;
+  line-height: 1
+}
+
+#wedding-date-location {
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: normal;
+  color: #000000
+}
+
+.date-spacing {
+  display: none
+}
+
+@media (max-width: 767px) {
+  #wedding-title {
+    font-size: 28px !important
+  }
+
+  #wedding-date-location {
+    font-size: 18px !important
+  }
+
+  #title-container {
+    padding-bottom: 13px
+  }
+
+  #separator {
+    display: none
+  }
+
+  #wedding-date {
+    display: block
+  }
+
+  #wedding-location {
+    display: block
+  }
+}
+
+@media only screen and (min-width: 1201px) {
+  h1, #wedding-title {
+    font-size: 3.5rem;
+    line-height: 1.4 !important
+  }
+
+  div[class*='-date'] {
+    font-size: 1rem
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+  h1, #wedding-title {
+    font-size: 3rem !important;
+    line-height: 1.4 !important
+  }
+
+  div[class*='-date'] {
+    font-size: 1rem
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  h1, #wedding-title {
+    font-size: 1.75em !important;
+    line-height: 1.4 !important
+  }
+
+  div[class*='-date'] {
+    font-size: 1rem
+  }
+}
