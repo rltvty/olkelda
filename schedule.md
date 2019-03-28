@@ -23,11 +23,13 @@ Please join us at our AirBnb for dinner:
 
 Anne-Marie & Eric met each other exactly one year ago :)
 
-## 10:00 AM - Leaving Reykjavik by Car 
+## 10:00 AM - Leave Reykjavik by Car 
+Meet at our AirBnb (Hverfisgata 105, Apartment 401):
 * 2 hour drive north to the Snæfellsnes Peninsula
 * We will make a stop or two along the way to see some sights and stretch
 
-## 1:00 PM - Hike to Rauðamelsölkelda & Ceremony
+## 1:00 PM - Ceremony
+Hike to Rauðamelsölkelda:
 * Attire: hiking gear, (waterproof) hiking boots, rain coats
 * Small picnic lunch will be provided
 
@@ -45,7 +47,7 @@ After dinner we will go out to some bars and/or dancing spots.  We would love if
 # Sunday, July 7th
 
 ## 11:00 AM - Brunch
+Location TBD
 * Please join us if you are available.
-* Location TBD
 
 After brunch we have no plans, feel free to do whatever you desire. 
