@@ -25,7 +25,7 @@ Additional Helpful Items:
 * outlet-adapter for plug type F (if from US; not needed if from Germany)
 
 # Car Rental
-No car needed for Reykjavik, everything is within walking distance.
+No car needed for Reykjavík, everything is within walking distance.
 
 It's best to rent from an established rental company like Hertz.
 * Get full insurance on the car, including any additional gravel insurance.
