@@ -33,60 +33,47 @@ body {
   color: #D9D9D9
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4 {
   padding: 0;
-  font-weight: 300;
   font-style: normal;
   color: #DDD;
   text-rendering: optimizeLegibility
 }
 
 h1 {
-  font-size: 24pt;
+  font-size: 26pt;
   margin-top: 10px;
   margin-bottom: 20px;
   margin-left: 0px;
   margin-right: 0px;
+  font-weight: bolder;
 }
 
 h2 {
   font-size: 20pt;
-  margin-top: 10px;
-  margin-bottom: 20px;
+  margin-top: 5px;
+  margin-bottom: 10px;
   margin-left: 0px;
   margin-right: 0px;
+  font-weight: 300;
 }
 
 h3 {
   font-size: 18pt;
-  margin-top: 5px;
-  margin-bottom: 10px;
+  margin-top: 3px;
+  margin-bottom: 8px;
   margin-left: 0px;
   margin-right: 0px;
+  font-weight: 300;
 }
 
 h4 {
   font-size: 16pt;
-  margin-top: 5px;
-  margin-bottom: 10px;
+  margin-top: 2px;
+  margin-bottom: 4px;
   margin-left: 0px;
   margin-right: 0px;
-}
-
-h5 {
-  font-size: 14pt;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  margin-left: 0px;
-  margin-right: 0px;
-}
-
-h6 {
-  font-size: 12pt;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  margin-left: 0px;
-  margin-right: 0px;
+  font-weight: 300;
 }
 
 hr {
@@ -117,13 +104,16 @@ img {
 li {
   list-style-type: disc;
   list-style-position: outside;
-  margin-left: 20px;
+  margin-left: 30px;
+  margin-bottom: 5px;
 }
 
 p {
-  margin: 0;
   padding: 0;
-  font-size: 1.4em
+  margin-left: 10px;
+  margin-right: 0;
+  margin-top: 0;
+  margin-bottom: 10px;
 }
 
 strong {
@@ -131,21 +121,9 @@ strong {
 }
 
 ul {
-  margin: 0;
+  margin: 10px;
   padding: 0
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 .clearfix-relative {
   position: relative
