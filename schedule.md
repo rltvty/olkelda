@@ -21,7 +21,7 @@ Please join us at our AirBnb for dinner:
 ---
 # Saturday, July 6th
 
-Anne-Marie & Eric met each other exactly one year ago :)
+#### Anne-Marie & Eric met exactly one year ago :)
 
 ## 10:00 AM - Leave Reykjavik by Car 
 Meet at our AirBnb (Hverfisgata 105, Apartment 401):
@@ -38,9 +38,9 @@ ROK Restaurant - https://www.rokrestaurant.is - Frakkastigur 26a
 * A group menu with tapas-like dishes and vegan options will be provided.
 * Casual outfit is fine, but also feel free to get a little fancier.
 
-If you want to walk over to the restaurant together, please meet at our AirBnb at 5:30 PM.  (Hverfisgata 105 apartment 401)
+If you want to walk to the restaurant together, please meet at our AirBnb at 5:30 PM.  (Hverfisgata 105 apartment 401)
 
-## After dinner
+## After Dinner
 After dinner we will go out to some bars and/or dancing spots.  We would love if you could join us :).
 
 ---
@@ -50,4 +50,4 @@ After dinner we will go out to some bars and/or dancing spots.  We would love if
 Location TBD
 * Please join us if you are available.
 
-After brunch we have no plans, feel free to do whatever you desire. 
+After brunch we have no plans, feel free to do what you desire. 
