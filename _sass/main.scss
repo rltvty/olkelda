@@ -1,4 +1,19 @@
-a, a:hover, body {
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box
+}
+
+a {
+  color: inherit;
+  text-decoration: none
+}
+
+a:hover {
+  text-decoration: none
+}
+
+a, a:hover {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-style: normal;
@@ -6,40 +21,16 @@ a, a:hover, body {
   color: #D9D9D9
 }
 
-a:hover {
-  text-decoration: none
-}
-
 body {
   height: 100%;
-  font-size: 10px;
-  //font-size: 16px;
   min-height: 100%;
   max-width: 100vw;
-  margin: 0
-}
-
-button {
-  font-family: "Orbitron", "sans-serif";
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
   font-style: normal;
   font-weight: normal;
-  color: #000000;
-  border-color: #000000;
-  border-style: solid;
-  border-width: 1px;
-  background-color: #F9F9F9;
-  border-radius: 2px;
-  font-size: 18px;
-  line-height: 1.44;
-  letter-spacing: 1px;
-  transition: all .25s;
-  display: inline-block;
-  padding: 0.46em 1.23em;
-  outline: 0
-}
-
-button:hover {
-  background-color: #9BA7B2
+  color: #D9D9D9
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -98,6 +89,16 @@ h6 {
   margin-right: 0px;
 }
 
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 0;
+  border-top: 1px solid #eeeeee
+}
+
 html {
   margin: 0;
   font-size: 100%;
@@ -108,8 +109,9 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
 }
 
-input {
-  outline: none
+img {
+  border: 0;
+  vertical-align: middle
 }
 
 li {
@@ -124,35 +126,46 @@ p {
   font-size: 1.4em
 }
 
+strong {
+  font-weight: bold
+}
+
 ul {
   margin: 0;
   padding: 0
 }
 
-#content {
-  margin-top: 60px
-  //margin-top: 10px
+
+
+
+
+
+
+
+
+
+
+
+
+.clearfix-relative {
+  position: relative
+}
+
+.clearfix:before, .clearfix-relative:before, .main-nav-container-inner:before, .clearfix:after, .clearfix-relative:after, .main-nav-container-inner:after {
+  content: " ";
+  display: table
+}
+
+.clearfix:after, .clearfix-relative:after, .main-nav-container-inner:after {
+  clear: both
+}
+
+@-ms-viewport {
+  width: device-width
 }
 
 #content a {
   text-decoration: underline
-}
-
-.center {
-  float: none;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center
-}
-
-.center-vertical-horizontal {
-  position: absolute;
-  top: 0;
-  right: 0;
-  left: 0;
-  bottom: 0;
-  margin: auto
 }
 
 .page {
@@ -160,6 +173,10 @@ ul {
 }
 
 @media (min-width: 1200px) {
+  #content {
+    margin-top: 60px
+  }
+
   .page {
     margin-left: 150px;
     margin-right: 150px

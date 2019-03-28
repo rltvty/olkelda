@@ -16,7 +16,6 @@
   max-width: 320px;
   text-align: left;
   background-color: white;
-  //background-color: #1D354F;
   padding: 8px 24px 8px 12px;
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
@@ -70,7 +69,6 @@
   top: 0;
   right: 0;
   background-color: white;
-  //background-color: rgba(29, 53, 79, 0.9);
   -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.17);
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.17)
 }
@@ -84,39 +82,24 @@
 
 .main-nav-container-container:not(.nav-open) {
   height: 100px
-  //height: 84px
 }
 
 #main-container.details-page #main-nav-container {
   margin-bottom: 0
 }
 
-button.main-nav {
-  margin-left: 6px;
-  margin-right: 6px
+.main-nav-container-inner:before, .main-nav-container-inner:after {
+  content: " ";
+  display: table
 }
 
+.main-nav-container-inner:after {
+  clear: both
+}
 
 @media (max-width: 767px) {
   .main-nav-container-inner {
     max-width: 100%
-  }
-
-  .main-nav-container-inner button.main-nav {
-    border: 0 !important;
-    font-size: 11px;
-    width: 47px;
-    height: 47px;
-    background: #FFF;
-    overflow: hidden;
-    text-indent: -100000px;
-    border-radius: 100%;
-    margin: 0;
-    position: fixed;
-    left: 9px;
-    top: 9px;
-    z-index: 1000;
-    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4)
   }
 
   .main-nav:after, .main-nav:before {
@@ -170,8 +153,6 @@ button.main-nav {
 
   #main-nav > ul > li {
     padding: 20px 20px
-    //display: block;
-    //padding: 6px 10px
   }
 
   #main-nav-container {
@@ -182,9 +163,6 @@ button.main-nav {
     top: 0;
     right: 0;
     height: 67px
-    //position: relative;
-    //padding-top: 8px;
-    //padding-bottom: 8px
   }
 
   .main-nav-container-container {
