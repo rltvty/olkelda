@@ -157,12 +157,12 @@ ul {
 
 .page {
   display: block;
-  margin-right: auto
 }
 
 @media (min-width: 1200px) {
   .page {
-    margin-left: 150px
+    margin-left: 150px;
+    margin-right: 150px
   }
 }
 
@@ -172,6 +172,7 @@ ul {
   }
 
   .page {
-    margin-left: 20px
+    margin-left: 20px;
+    margin-right: 20px
   }
 }
