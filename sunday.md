@@ -2,6 +2,7 @@
 layout: default
 title: About
 ---
-# Sunday 7 July
 
-For those who want to join in, we'll have brunch together. Time & place TBD.
+Brunch as of 11:00 AM for those who want to join in. Place TBD.
+
+After brunch we have no plans, feel free to do whatever you desire. 
