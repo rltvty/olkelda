@@ -1,4 +1,5 @@
 #cover-image {
+  display: block;
   position: relative;
   left: 0;
   right: 0;
@@ -23,14 +24,6 @@
     width: 95%
   }
 
-  #cover-image.is-desktop {
-    display: none
-  }
-
-  #cover-image.is-mobile {
-    display: block
-  }
-
   #cover-image {
     padding-bottom: 50%;
     border-width: 8px
@@ -40,13 +33,5 @@
 @media (min-width: 1200px) {
   #header {
     width: 75%
-  }
-
-  #cover-image.is-desktop {
-    display: block
-  }
-
-  #cover-image.is-mobile {
-    display: none
   }
 }
