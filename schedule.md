@@ -52,7 +52,7 @@ After dinner we will go out to some bars and/or dancing spots. We would love if 
 # Sunday, July 7th
 
 ## 11:00 AM - Brunch
-Location TBD
+[Bergsson Mathus - Templarasund 3, Reykjavik](https://goo.gl/maps/1dGhSvYujb42) - [http://www.bergsson.net/mathus]
 * Please join us if you are available.
 
 After brunch we have no plans, feel free to do what you desire. 
