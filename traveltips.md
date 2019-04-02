@@ -6,7 +6,7 @@ title: Travel Tips
 
 
 # Arrival
-* Airport to downtown https://iheartreykjavik.net/20...
+* Airport to downtown https://iheartreykjavik.net/2017/10/the-ultimate-guide-to-getting-from-keflavik-airport-to-reykjavik/
 
 
 
