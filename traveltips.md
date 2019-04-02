@@ -14,7 +14,7 @@ title: Travel Tips
 # What to bring
 Please don't bring presents. Your presence with us on our special day is all we desire.
 
-Don't bring formal clothes. Dress will hiking attire at the ceremony and casual at dinner. 
+Don't bring formal clothes. Dress will be hiking attire at the ceremony and casual at dinner. 
 
 Do bring functional clothes, rain coats, and good (waterproof) shoes for some short hikes.
 
