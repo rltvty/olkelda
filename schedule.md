@@ -30,12 +30,11 @@ Anne-Marie & Eric met exactly one year ago :)
 Meet at our AirBnb:
 * [Apartment 401, Hverfisgata 105, Reykjavík](https://goo.gl/maps/XRSJt8agZ1s)
 * 2 hour drive north to the Snæfellsnes Peninsula
-* We will make a stop or two along the way to see some sights and stretch
+* We will make a stop or two along the way to see some sights, stretch and lunch
 
 ## 1:00 PM - Ceremony
 Hike to Rauðamelsölkelda:
 * Attire: hiking gear, (waterproof) hiking boots, rain coats
-* Small picnic lunch will be provided
 * Directions are on the bottom of the [Iceland Info page](https://rltvty.github.io/olkelda/icelandinfo.html).
 
 ## 6:00 PM - Dinner
