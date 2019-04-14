@@ -1,8 +1,8 @@
 - name: Home
-  link: /olkelda/
+  link: /
 - name: Schedule
-  link: /olkelda/schedule.html
+  link: /schedule.html
 - name: Iceland Info
-  link: /olkelda/icelandinfo.html
+  link: /icelandinfo.html
 - name: Travel Tips
-  link: /olkelda/traveltips.html
+  link: /traveltips.html
