@@ -32,6 +32,10 @@ Meet at our AirBnb:
 * Heading north to the Snæfellsnes Peninsula for the ceremony
 * We will make a stop or two along the way to see some sights
 
+Note about inclement weather: 
+* It can often be cold, rainy, and windy in Iceland.  However we are traveling to Iceland to have our ceremony at this specific location, so we will be making the trip to it no matter the conditions.  
+* If the weather is nasty, feel free to stay in Reykjavík for the afternoon, and just meetup with us for dinner.
+
 ## 12:00 PM - Lunch in Borgarnes
 La Colina Pizzeria:
 * [Hrafnaklettur 1b, Borgarnes](https://goo.gl/maps/mbJPQZxumq22)
