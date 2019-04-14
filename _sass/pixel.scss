@@ -6,7 +6,9 @@
   and (max-device-width: 900px) 
   and (-webkit-device-pixel-ratio: 2.2) 
   and (orientation: portrait) {
+    body {
       font-size: 24px;
+    }
 }
 
 /* Landscape */
@@ -15,5 +17,7 @@
   and (max-device-width: 800px) 
   and (-webkit-device-pixel-ratio: 2.2) 
   and (orientation: landscape) {
+    body {
     font-size: 20px;
+    }
 }
