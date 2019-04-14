@@ -26,23 +26,33 @@ Please join us at our AirBnb for dinner:
 
 Anne-Marie & Eric met exactly one year ago :)
 
-## 10:00 AM - Leave Reykjavík by Car 
+## 10:30 AM - Leave Reykjavík by Car 
 Meet at our AirBnb:
 * [Apartment 401, Hverfisgata 105, Reykjavík](https://goo.gl/maps/XRSJt8agZ1s)
-* 2 hour drive north to the Snæfellsnes Peninsula
-* We will make a stop or two along the way to see some sights, stretch and lunch
+* Heading north to the Snæfellsnes Peninsula for the ceremony
+* We will make a stop or two along the way to see some sights
 
-## 1:00 PM - Ceremony
+## 12:00 PM - Lunch in Borgarnes
+La Colina Pizzeria:
+* [Hrafnaklettur 1b, Borgarnes](https://goo.gl/maps/mbJPQZxumq22)
+* Last bathroom stop until we return to Borgarnes after the ceremony
+
+## 1:30 PM - Ceremony
 Hike to Rauðamelsölkelda:
 * Attire: hiking gear, (waterproof) hiking boots, rain coats
 * Directions are on the bottom of the [Iceland Info page](https://rltvty.github.io/olkelda/icelandinfo.html).
 
+## 3:30 PM - Snack Stop in Borgarnes
+Geirabakari Kaffihus (Bakery & Café):
+* [Þjóðvegur, Borgarnes](https://goo.gl/maps/ULLJF42w71s)
+
+## 5:00 PM - Return to Reykjavík
+
 ## 6:00 PM - Dinner
-[ROK Restaurant - Frakkastígur 26a, Reykjavík](https://goo.gl/maps/AWnTpAxM1zn) - [www.rokrestaurant.is](https://www.rokrestaurant.is)
+[ROK Restaurant](https://www.rokrestaurant.is)
+* [Frakkastígur 26a, Reykjavík](https://goo.gl/maps/AWnTpAxM1zn)
 * A group menu with tapas-like dishes and vegan options will be provided.
 * Casual outfit is fine, but also feel free to get a little fancier.
-
-If you want to walk to the restaurant together, please meet at our AirBnb at 5:30 PM. ([Apartment 401, Hverfisgata 105, Reykjavík](https://goo.gl/maps/XRSJt8agZ1s))
 
 ## After Dinner
 After dinner we will go out to some bars and/or dancing spots. We would love if you could join us!
@@ -51,7 +61,8 @@ After dinner we will go out to some bars and/or dancing spots. We would love if 
 # Sunday, July 7th
 
 ## 11:00 AM - Brunch
-[Bergsson Mathus - Templarasund 3, Reykjavik](https://goo.gl/maps/1dGhSvYujb42) - [www.bergsson.net/mathus](https://www.bergsson.net/mathus)
+[Bergsson Mathus](https://www.bergsson.net/mathus)
+* [Templarasund 3, Reykjavik](https://goo.gl/maps/1dGhSvYujb42)
 * Please join us if you are available.
 
 After brunch we have no plans, feel free to do what you desire. 
